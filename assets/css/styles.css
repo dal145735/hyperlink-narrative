@@ -5,6 +5,14 @@
 	line-height: 1.4em;
 }
 
+body.homepage {
+	background-color: #f28100;
+}
+
+body.page2 {
+	background-color: cadetblue;
+}
+
 p a {
 	font-family:'Courier New', Courier, monospace;
 	font-size: 1.3em;
@@ -27,5 +35,21 @@ ul.choices li a {
 	color: red;
 	text-decoration: none;
 	font-weight: bold;
-	border: 4px dashed #2e3d28;
+	border: 2px dashed #2e3d28;
+	margin:10px;
+	padding:1px 2px;
+}
+
+ul.choices li a:hover {
+	color: darkkhaki;
+	background-color: #2e3d28;
+}
+
+img {
+	padding: 20px;
+	border-radius: 10px 40px 5px 0;
+}
+
+img:hover{
+	background: #000;
 }
