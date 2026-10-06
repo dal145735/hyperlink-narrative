@@ -3,20 +3,30 @@
 * {
 	font-family: Arial;
 	line-height: 1.4em;
+	color:white
 }
 
 body.homepage {
 	background-color: #f28100;
 }
 
-body.page2 {
-	background-color: cadetblue;
+body.punch {
+	background-color: rgb(255, 120, 120);
+}
+
+body.simply {
+	background-color: rgb(255, 186, 195);
+}
+
+body.suja {
+	background:linear-gradient(0deg,rgb(23, 63, 26) 0%, rgba(255, 195, 76, 1) 100%);
+	background-attachment: fixed;
 }
 
 p a {
-	font-family:'Courier New', Courier, monospace;
-	font-size: 1.3em;
-	color: red;
+	font-family:'Lato', monospace;
+	font-size: 1.1em;
+	color: dodgerblue;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -32,17 +42,16 @@ ul.choices {
 }
 
 ul.choices li a {
-	color: red;
+	color: dodgerblue;
 	text-decoration: none;
 	font-weight: bold;
-	border: 2px dashed #2e3d28;
 	margin:10px;
 	padding:1px 2px;
 }
 
 ul.choices li a:hover {
-	color: darkkhaki;
-	background-color: #2e3d28;
+	color: rgb(107, 133, 189);
+	background-color: #282f3d;
 }
 
 img {
@@ -52,4 +61,28 @@ img {
 
 img:hover{
 	background: #000;
+}
+
+h1 {
+  font-family: "Contrail One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: "Isometra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{
+	font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
+}
+
+h4{
+	font-family: "Strait", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
 }
